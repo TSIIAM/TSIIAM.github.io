@@ -1,0 +1,44 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #fff;
+}
+
+.girar:hover{
+	animation:girar 1s infinite;
+	transition: girar 1s;
+}
+/*Estilo personalizado animacion de modal  cerrar X */
+@keyframes girar{
+	0%{transform:rotate(-90deg)};
+	25%{transform:rotate(-120deg)};
+	50%{transform:rotate(-180deg)};
+	75%{transform:rotate(-240deg)};
+	100%{transform:rotate(-360deg)};
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
