@@ -8,6 +8,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+.jumbotron{
+  background-color: #2D2C31;
+  color:white;
+}
 .footer {
 	display: flex;
 	justify-content: space-around;
